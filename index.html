@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="logo">MyApp</div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#">Profile</a>
+      <a href="#">Settings</a>
+      <a href="#">Logout</a>
+    </nav>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search..." />
+      <button>🔍</button>
+    </div>
+
+    <button class="hamburger" id="hamburger">☰</button>
+  </header>
+
+  <!-- ===== Sidebar ===== -->
+  <aside class="sidebar" id="sidebar">
+    <button id="toggleSidebar">☰</button>
+    <ul>
+      <li><i>🏠</i> Dashboard</li>
+      <li><i>👤</i> Users</li>
+      <li><i>⚙️</i> Settings</li>
+      <li><i>📄</i> Reports</li>
+    </ul>
+  </aside>
+
+  <!-- ===== Main Content ===== -->
+  <main class="main-content">
+    <h1>Welcome to Your Dashboard</h1>
+    <p>Below is a list of users fetched from an API.</p>
+
+    <div id="user-container" class="user-container">
+      <!-- User cards will appear here dynamically -->
+    </div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>© 2025 MyApp Dashboard. All rights reserved.</p>
+  </footer>
+</body>
+</html>
