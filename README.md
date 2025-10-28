@@ -1,4 +1,5 @@
 Description
+
 A responsive User Dashboard Page built using HTML, CSS, and JavaScript.  
 This project was developed as part of a Frontend Developer One-Day Interview Task.
 1.Fixed responsive navbar 
@@ -9,15 +10,18 @@ This project was developed as part of a Frontend Developer One-Day Interview Tas
 6.Sticky footer
 
 Stack Used
+
 HTML5 — Page structure  
 CSS3  — Layout & responsiveness  
 Vanilla JavaScript — Data fetching and DOM updates
 
 API Used
+
 User data: `https://jsonplaceholder.typicode.com/users`  
 Profile images: `https://i.pravatar.cc/150?img=<id>` (or `randomuser.me` variants)
 
 How to Run
+
 Using VS Code Live Server
 1. Open the project folder in VS Code.  
 2. Install and enable the Live Server extension.  
